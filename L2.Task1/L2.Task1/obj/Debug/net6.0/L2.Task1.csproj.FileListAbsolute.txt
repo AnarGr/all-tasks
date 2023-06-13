@@ -1,0 +1,15 @@
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.csproj.AssemblyReference.cache
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.AssemblyInfoInputs.cache
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.AssemblyInfo.cs
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.csproj.CoreCompileInputs.cache
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\bin\Debug\net6.0\L2.Task1.exe
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\bin\Debug\net6.0\L2.Task1.deps.json
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\bin\Debug\net6.0\L2.Task1.runtimeconfig.json
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\bin\Debug\net6.0\L2.Task1.dll
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\bin\Debug\net6.0\L2.Task1.pdb
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.dll
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\refint\L2.Task1.dll
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.pdb
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\L2.Task1.genruntimeconfig.cache
+C:\Users\Anar\Desktop\New folder\L2.Task1\L2.Task1\obj\Debug\net6.0\ref\L2.Task1.dll
