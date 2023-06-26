@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kiçik ToDo App</title>
+  <style>
+    ul {
+      list-style-type: none;
+    }
+  </style>
+</head>
+<body>
+  <input type="text" id="taskInput">
+  <button onclick="addTask()">Əlavə et</button>
+  <ul id="taskList"></ul>
+
+  <script>
+    function addTask() {
+    let   taskInput = document.getElementById("taskInput");
+    let   taskList = document.getElementById("taskList");
+
+      let task = taskInput.value.trim();
+      if (task !== "") {
+        let  listItem = document.createElement("li");
+        listItem.appendChild(document.createTextNode(task));
+        taskList.appendChild(listItem);
+        taskInput.value = "";
+      }
+    }
+  </script>
+</body>
+</html>
