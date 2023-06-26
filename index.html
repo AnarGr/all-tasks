@@ -1,82 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Qeydiyyat</title>
-  <script>
-   function validateForm() 
-{
-    let name = document.forms["signupForm"]['name'].value;
-    let surname = document.forms["signupForm"]["surname"].value;
-    let age = document.forms["signupForm"]["age"].value;
-    let gender = document.forms["signupForm"]["gender"].value;
-    let agree = document.forms["signupForm"]["agree"].checked;
-    let email = document.forms["signupForm"]["email"].value;
-    let password = document.forms["signupForm"]["password"].value;
-         
-    if(name == "" || surname == "") 
-    {
-        alert ("Ad ve Soyad bos olmamalidir.");
-    return false;
+  <title>Kiçik ToDo App</title>
+  <style>
+    ul {
+      list-style-type: none;
     }
-     
-    if(age < 14)
-    {
-      alert ("Yasiniz 14den boyuk olmalidir.");
-     return false ;
-    }
-    let age = document.forms["signupForm"]["age"].value;
-
-  if (!terms) 
-  {
-    alert("Please agree to the Terms & Conditions.");
-
-    return false;
-   }
-   let email = document.forms["signupForm"]["email"].value;
-  let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-  if (!email.match(emailRegex)) 
-  {
-    alert("Zehmet olmasa duzgun email adressi qeyd edin");
-    return false;
-  }
-  let password = document.forms["signupForm"]["password"].value;
-  if (password.length < 8)
-  {
-    alert("Parol 8 karakterden daha cox olmalidir");
-    return false;
-  }
-}
-
-  </script>
+  </style>
 </head>
 <body>
-    <form name="signupForm" onsubmit="return validateForm()">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required><br><br>
-      
-      <label for="surname">Surname:</label>
-      <input type="text" id="surname" name="surname" required><br><br>
-      
-      <label for="age">Age:</label>
-      <input type="number" id="age" name="age" required><br><br>
-      
-      <label for="gender">Gender:</label>
-      <select id="gender" name="gender">
-        <option value="male">Male</option>
-        <option value="female">Female</option>
-        <option value="other">Other</option>
-      </select><br><br>
-      
-      <input type="checkbox" id="terms" name="terms" checked>
-      <label for="terms">I agree to the Terms & Conditions</label><br><br>
-      
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required><br><br>
-      
-      <label for="password">Password:</label>
-      <input type="password" id="password" name="password" required><br><br>
-      
-      <input type="submit" value="Sign Up">
-    </form>
-  </body>
-  </script>  
+  <input type="text" id="taskInput">
+  <button onclick="addTask()">Əlavə et</button>
+  <ul id="taskList"></ul>
+
+  <script>
+    function addTask() {
+    let   taskInput = document.getElementById("taskInput");
+    let   taskList = document.getElementById("taskList");
+
+      let task = taskInput.value.trim();
+      if (task !== "") {
+        let  listItem = document.createElement("li");
+        listItem.appendChild(document.createTextNode(task));
+        taskList.appendChild(listItem);
+        taskInput.value = "";
+      }
+    }
+  </script>
+</body>
+</html>
